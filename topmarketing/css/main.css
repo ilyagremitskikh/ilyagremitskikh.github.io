@@ -1,3 +1,8 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -145,6 +150,10 @@ section.services {
 section.cases {
   padding-bottom: 6rem;
   background-color: #aeafb2; }
+  section.cases h3::before {
+    margin-bottom: 5.6rem;
+    content: url(../img/dotted-line.png);
+    display: block; }
   section.cases .grid {
     display: grid;
     position: relative;
@@ -166,4 +175,54 @@ section.cases {
     color: #a63024; }
 
 section.experience {
+  padding-bottom: 3rem;
   background-color: #a63024; }
+  section.experience h3 {
+    padding-top: 5.6rem;
+    padding-bottom: 3rem;
+    color: #aeafb2; }
+    section.experience h3:last-child {
+      padding-top: 3rem; }
+    section.experience h3.benefits::before {
+      margin-bottom: 5.6rem;
+      content: url(../img/dotted-line.png);
+      display: block; }
+  section.experience .partners-logo {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    section.experience .partners-logo img {
+      display: inline-block;
+      margin: 2rem;
+      -ms-flex-preferred-size: 50px;
+          flex-basis: 50px; }
+  section.experience p.profits {
+    padding: 3.3rem 0;
+    margin-left: 65px;
+    color: #aeafb2;
+    font-size: 2.222rem;
+    font-weight: 300;
+    line-height: 2.444rem; }
+  section.experience p.number_1 {
+    width: 80%;
+    background: url("../img/number1.png") left center no-repeat;
+    background-size: contain; }
+  section.experience p.number_2 {
+    width: 90%;
+    background: url("../img/number2.png") center center no-repeat;
+    background-size: contain; }
+  section.experience p.number_3 {
+    width: 100%;
+    padding: 5rem 0;
+    background: url("../img/number3.png") right center no-repeat;
+    background-size: contain; }
+  section.experience p.min {
+    margin-left: 65px;
+    color: #8e8e8e;
+    line-height: 1.222rem; }
