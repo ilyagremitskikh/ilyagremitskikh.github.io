@@ -82,24 +82,19 @@ section.core-values {
     margin-left: auto;
     margin-right: auto;
     max-width: 1110px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    width: 100%; }
     section.core-values .values p {
-      padding-bottom: 4rem;
-      -ms-flex-preferred-size: 350px;
-          flex-basis: 350px;
+      display: grid;
+      min-height: 350px;
       color: #4f1812;
-      font-size: 2.222rem;
+      font-size: 2rem;
       font-weight: 700;
-      line-height: 2.333rem; }
+      line-height: 2.333rem;
+      text-align: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      outline: none; }
 
 section.services {
   background-color: #aeafb2; }
