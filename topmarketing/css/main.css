@@ -276,3 +276,31 @@ section.contact-form {
       cursor: pointer;
       color: #7c241b;
       border: 0.167rem solid #7c241b; }
+
+footer {
+  padding: 1.5rem 0; }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #a63024; }
+    footer .container a {
+      color: #a63024; }
+      footer .container a:hover {
+        text-decoration: none; }
+    footer .container p {
+      margin: 0;
+      padding: 0; }
+
+.typed-wrapper {
+  height: 400px; }

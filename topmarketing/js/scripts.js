@@ -38,19 +38,25 @@ $(document).ready(function() {
 
     $('.values').slick({
         autoplay: true,
+        autoplaySpeed: 2000,
         arrows: false,
         slidesToShow: 3,
         slidesToScroll: 1
     });
 
-    $(".contact-form-class").submit(function() { //Change
+    $("form").submit(function() { //Change
         var th = $(this);
         $.ajax({
             type: "POST",
             url: "mail.php", //Change
             data: th.serialize()
         }).done(function() {
-            alert("Thank you!");
+            swal({
+                title: "Спасибо",
+                text: "Мы скоро с вами свяжемся!",
+                icon: "success",
+                button: "Закрыть",
+            });
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
@@ -58,5 +64,17 @@ $(document).ready(function() {
         });
         return false;
     });
+
+    var typed = new Typed('.typed', {
+        strings: ['Мы ^500 брендинговое агентство нового формата', 'Мы ^500 брендинговое агентство нового форматa', 'Мы ^500 брендинговое агентство нового формата', 'Мы ^500 брендинговое агентство нового форматa', 'Мы ^500 брендинговое агентство нового формата', 'Мы ^500 брендинговое агентство нового форматa', 'Мы ^500 брендинговое агентство нового формата'],
+        typeSpeed: 30,
+        backSpeed: 40,
+        smartBackspace: true, // this is a default
+        loop: true,
+        backDelay: 800,
+        startDelay: 300,
+    });
+
+    var scroll = new SmoothScroll('a[href*="#"]');
 
 });
