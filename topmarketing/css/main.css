@@ -79,25 +79,38 @@ header {
         justify-content: space-around; }
 
 nav.navbar {
-  max-width: 1140px;
-  margin: 0 auto;
   text-transform: uppercase; }
-  nav.navbar .navbar-nav {
+  nav.navbar .navigation-wrapper {
+    min-width: 1140px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end; }
-    nav.navbar .navbar-nav a.nav-item {
-      font-size: 18px;
-      padding: 0 20px;
-      color: #a63024;
-      -webkit-transition: color linear 0.3s;
-      transition: color linear 0.3s; }
-      nav.navbar .navbar-nav a.nav-item:hover {
-        color: #d03c2d; }
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0 auto; }
+    nav.navbar .navigation-wrapper .navbar-nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+      nav.navbar .navigation-wrapper .navbar-nav a.nav-item {
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 0 20px;
+        color: #a63024;
+        -webkit-transition: color linear 0.3s;
+        transition: color linear 0.3s; }
+        nav.navbar .navigation-wrapper .navbar-nav a.nav-item:hover {
+          color: #d03c2d; }
+
+.scrolled {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.5); }
 
 h1 {
   font-size: 100px;
@@ -133,6 +146,7 @@ section.core-values {
     padding-top: 120px;
     color: #aeafb2; }
   section.core-values .values p {
+    height: 126px;
     margin-top: 55px;
     margin-bottom: 110px;
     display: -webkit-box;
