@@ -56,6 +56,9 @@ button.close {
   .modal .modal-body {
     padding-top: 0; }
 
+img#logo {
+  padding-bottom: 8px; }
+
 header {
   padding-top: 100px;
   padding-bottom: 110px;
