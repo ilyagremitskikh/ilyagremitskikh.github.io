@@ -65,7 +65,7 @@ $(document).ready(function() {
             $(".navbar").removeClass('scrolled')
         }
     });
-    $('header').flowtype({ minFont: 16, maxFont: 30, fontRatio: 55 });
+    $('header').flowtype({ minFont: 16, maxFont: 30, fontRatio: 62.5 });
 
     // Создание обработчика для события window.onLoad
     YMaps.jQuery(function() {
