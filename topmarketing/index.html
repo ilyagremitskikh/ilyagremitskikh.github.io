@@ -82,7 +82,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Юничел</h5>
+                        <h5 class="modal-title">«Юничел»</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -283,16 +283,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">О нас <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" data-scroll href="#services">Услуги</a>
                 <a class="nav-item nav-link" data-scroll href="#cases">Кейсы</a>
+                <a class="nav-item nav-link" data-scroll href="#experience">Выгоды</a>
                 <a class="nav-item nav-link" href="#">Презентация</a>
             </div>
         </div>
         </div>
     </nav>
     <header id="header">
-        <div class="wrapper">
+        <div class="wrapper header-fullscreen">
             <h1>Мы брендинговое <br>агентство <br>нового формата</h1>
             <h2>Креатив для нас — лишь средство для решения бизнес-задач клиента и никогда сама цель!</h2>
             <h4>Только, когда креатив основан на глубоком анализе бренда, <br>мы можем расчитывать на эффективное решение задачи</h4>
@@ -484,13 +484,13 @@
             </div>
         </div>
     </section>
-    <section class="experience">
+    <section class="experience" id="experience">
         <div class="container">
             <h3 class="top">Опыт работы</h3>
             <img src="img/partners/partners.png" alt="">
             <h3 class="benefits">Выгоды работы с нами</h3>
-            <p class="profits number_1">Мы готовы работать до победного конца, не оставляя Клиента один на один с проблемой — дорабатывать свои варианты работ до полной удовлетворенности Клиента</p>
-            <p class="profits number_2">Поможем наиболее эффективно использовать ваши текущие ресурсы — бесплатно разобраться в ситуации и сформулировать ключевую маркетинговую задачу — куда необходимо направить ваши усилия и финансовые ресурсы</p>
+            <p class="profits number_1">Мы готовы работать до победного конца, не&nbsp;оставляя Клиента один на один с проблемой — дорабатывать свои варианты работ до полной удовлетворенности Клиента</p>
+            <p class="profits number_2">Поможем наиболее эффективно использовать ваши текущие ресурсы — бесплатно разобраться в&nbsp;ситуации и сформулировать ключевую маркетинговую задачу — куда необходимо направить ваши усилия и финансовые ресурсы</p>
             <p class="profits number_3">Готовы получать часть своего вознаграждения по итогам реального влияния предложенных нами решений на
                 <br>конечный результат (ваши продажи, прибыль)*</p>
             <p class="min">* При прозрачной системе оценки итоговых результатов.
@@ -539,6 +539,7 @@
         </div>
     </section>
     <section class="map">
+        <div id="YMapsID" style="height:550px"></div>
     </section>
     <footer>
         <ul>
@@ -550,14 +551,16 @@
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/jquery.cycle.all.min.js"></script>
-    <script src="js/jquery.maximage.min.js"></script>
+    <script src="js/jquery.maximage.min.js"></script>   
+    <script src="libs/flowtype.js"></script>
+    <script src="https://api-maps.yandex.ru/1.1/index.xml"></script>
     <script src="js/scripts.js"></script>
 </body>
 
