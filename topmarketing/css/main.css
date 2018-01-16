@@ -276,6 +276,9 @@ section.cases {
           font-size: 35px;
           line-height: 1.3; }
 
+img.partners {
+  margin-bottom: 118px; }
+
 section.experience {
   background-color: #a63024; }
   section.experience h3 {
@@ -286,7 +289,6 @@ section.experience {
     section.experience h3.benefits {
       padding-bottom: 35px; }
     section.experience h3.benefits::before {
-      padding-top: 118px;
       padding-bottom: 124px;
       content: url(../img/dotted-line.png);
       display: block; }
