@@ -44,24 +44,22 @@ $(document).ready(function() {
         });
     });
     $(window).scroll(function() {
-        if ($(window).scrollTop() > 620) {
+        if ($(window).scrollTop() > 20) {
             $("#logo").attr("src", "img/logo-scrolled.png"),
                 $(".navbar").css({ padding: '0', 'transition': 'padding 0.5s ease' }),
-                $(".navbar-nav").css('margin-bottom', '0'),
-                $(".nav-link").css({ fontSize: '80%', 'padding': '0 30px' })
+                $(".navbar-nav").css('margin-bottom', '-3px')
         };
-        if ($(window).scrollTop() <= 620) {
+        if ($(window).scrollTop() <= 20) {
             $("#logo").attr("src", "img/logo.png"),
                 $(".navbar").css('padding', '.5rem 1rem'),
-                $(".navbar-nav").css('margin-bottom', '20px'),
-                $(".nav-link").css({ fontSize: '18px', 'padding': '0 20px' })
+                $(".navbar-nav").css('margin-bottom', '22px')
         }
     });
     $(window).scroll(function() {
-        if ($(window).scrollTop() > 640) {
+        if ($(window).scrollTop() > 40) {
             $(".navbar").addClass('scrolled')
         };
-        if ($(window).scrollTop() <= 640) {
+        if ($(window).scrollTop() <= 40) {
             $(".navbar").removeClass('scrolled')
         }
     });

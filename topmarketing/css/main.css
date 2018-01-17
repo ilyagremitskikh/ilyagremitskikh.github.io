@@ -57,7 +57,7 @@ button.close {
     padding-top: 0; }
 
 img#logo {
-  padding-bottom: 8px; }
+  padding-bottom: 11px; }
 
 header {
   height: 100vh;
@@ -170,7 +170,7 @@ section.core-values {
 
 section.services {
   background-color: #aeafb2;
-  padding-bottom: 115px; }
+  padding-bottom: 83px; }
   section.services h3 {
     padding-top: 120px;
     padding-bottom: 70px;
@@ -238,7 +238,7 @@ section.cases {
     margin-bottom: 70px;
     color: #a63024; }
   section.cases h3::before {
-    margin-bottom: 117px;
+    margin-bottom: 110px;
     content: url(../img/dotted-line.png);
     display: block; }
   section.cases .grid {
@@ -277,7 +277,7 @@ section.cases {
           line-height: 1.3; }
 
 img.partners {
-  margin-bottom: 118px; }
+  margin-bottom: 78px; }
 
 section.experience {
   background-color: #a63024; }
@@ -289,7 +289,7 @@ section.experience {
     section.experience h3.benefits {
       padding-bottom: 35px; }
     section.experience h3.benefits::before {
-      padding-bottom: 124px;
+      padding-bottom: 110px;
       content: url(../img/dotted-line.png);
       display: block; }
   section.experience p.profits {
@@ -372,9 +372,9 @@ section.contact-form {
         cursor: pointer; }
 
 footer {
-  background-color: #FFF;
+  background-color: #aeafb2;
   padding-top: 54px;
-  padding-bottom: 54px; }
+  padding-bottom: 34px; }
   footer ul {
     display: -webkit-box;
     display: -ms-flexbox;
