@@ -52,7 +52,7 @@ $(document).ready(function() {
         if ($(window).scrollTop() <= 20) {
             $("#logo").attr("src", "img/logo.png"),
                 $(".navbar").css('padding', '.5rem 1rem'),
-                $(".navbar-nav").css('margin-bottom', '22px')
+                $(".navbar-nav").css('margin-bottom', '25px')
         }
     });
     $(window).scroll(function() {

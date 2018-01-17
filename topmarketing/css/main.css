@@ -95,7 +95,7 @@ nav.navbar {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      margin-bottom: 20px; }
+      margin-bottom: 25px; }
       nav.navbar .navigation-wrapper .navbar-nav a.nav-item {
         font-size: 18px;
         padding: 0 20px;
@@ -300,7 +300,6 @@ section.experience {
     letter-spacing: -1.2px;
     color: #aeafb2; }
   section.experience p.number_1 {
-    width: 849px;
     padding: 54px 0;
     background: url("../img/number1.png") left center no-repeat; }
   section.experience p.number_2 {
