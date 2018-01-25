@@ -4,7 +4,9 @@ $(document).ready(function() {
         autoplaySpeed: 2000,
         arrows: false,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        pauseOnFocus: false,
+        pauseOnHover: false
     });
 
     $("form").submit(function() { //Change
@@ -84,6 +86,4 @@ $(document).ready(function() {
         var placemark = new YMaps.Placemark(map.getCenter(), { style: s, hasBalloon: false });
         map.addOverlay(placemark);
     });
-
-
 });
