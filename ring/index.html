@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="video.movie">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
+    <title>Колесо баланса</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Колесо баланса</h1>
+        <!-- <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="input-group">
+                    <input id="person_counter" type="number" max="10" value="0" class="form-control" placeholder="Введите количество человек" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button onclick="getNumberOfPersons()" class="btn btn-outline-secondary" type="button" id="button-addon2">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="row person_chars justify-content-center">
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="person_name">Введите имя:</label>
+                    <input type="text" class="form-control" id="person_name" placeholder="Например: Петр Иванов">
+                </div>
+                <div class="form-group">
+                    <label for="person_status">Кем вам приходится?</label>
+                    <input type="text" class="form-control" id="person_status" placeholder="Например: Коллега">
+                </div>
+            </div>
+        </div>
+        <div class="row person_chars justify-content-center">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="career">Карьера:</label>
+                    <input type="number" max="10" class="form-control" id="career" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="relations">Отношения:</label>
+                    <input type="number" max="10" class="form-control" id="relations" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="friends">Друзья:</label>
+                    <input type="number" max="10" class="form-control" id="friends" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="rest">Отдых:</label>
+                    <input type="number" max="10" class="form-control" id="rest" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="education">Развитие:</label>
+                    <input type="number" max="10" class="form-control" id="education" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="finance">Финансы:</label>
+                    <input type="number" max="10" class="form-control" id="finance" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="philanthropy">Вклад в мир:</label>
+                    <input type="number" max="10" class="form-control" id="philanthropy" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="health">Здоровье:</label>
+                    <input type="number" max="10" class="form-control" id="health" placeholder="Число от 1 до 10">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 text-center">
+                <button onclick="buildBalanceWheel()" type="button" class="btn btn-outline-primary">Отправить</button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <h4 id="name_from_input"></h3>
+            <p id="desc_from_input"></p>
+            <p id="average_mark"></p>
+            <div class="row balance_col">
+                <div class="col">
+                    <div class="graph career"></div>
+                    <h3 class="career-title">Карьера</h3>
+                </div>
+                <div class="col">
+                    <div class="graph relations"></div>
+                    <h3 class="relations-title">Отношения</h3>
+                </div>
+                <div class="col">
+                    <div class="graph friends"></div>
+                    <h3 class="friends-title">Друзья</h3>
+                </div>
+                <div class="col">
+                    <div class="graph rest"></div>
+                    <h3 class="rest-title">Отдых</h3>
+                </div>
+                <div class="col">
+                    <div class="graph education"></div>
+                    <h3 class="education-title">Развитие</h3>
+                </div>
+                <div class="col">
+                    <div class="graph finance"></div>
+                    <h3 class="finance-title">Финансы</h3>
+                </div>
+                <div class="col">
+                    <div class="graph philantropy"></div>
+                    <h3 class="philantropy-title">Вклад в мир</h3>
+                </div>
+                <div class="col">
+                    <div class="graph health"></div>
+                    <h3 class="health-title">Здоровье</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
