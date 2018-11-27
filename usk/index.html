@@ -10,7 +10,7 @@
     <meta property="og:image" content="">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css">
-    <title>Hello, world!</title>
+    <title>Уральская строительна компания</title>
   </head>
   <body>
     <header class="header">
@@ -23,23 +23,23 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="header--navbar-nav navbar-nav">
               <li class="header--nav-item nav-item">
-                <a class="header--nav-link nav-link" href="#">услуги</a>
+                <a data-scroll class="header--nav-link nav-link" href="#price">услуги</a>
               </li>
               <li class="header--nav-item nav-item">
-                <a class="header--nav-link nav-link" href="#">наши проекты</a>
+                <a data-scroll class="header--nav-link nav-link" href="#projects">наши проекты</a>
               </li>
               <li class="header--nav-item nav-item">
-                <a class="header--nav-link nav-link" href="#">этапы работы</a>
+                <a data-scroll class="header--nav-link nav-link" href="#benefits">преимущества</a>
               </li>
               <li class="header--nav-item nav-item">
-                <a class="header--nav-link nav-link" href="#">контакты</a>
+                <a data-scroll class="header--nav-link nav-link" href="#contacts">контакты</a>
               </li>
             </ul>
           </div>
         </nav>
         <div class="header--text-wrapper">
           <h1 class="header--title">Поставка и монтаж быстровозводимых зданий из металлоконструкций (ЛСТК) от 2800&nbsp;руб.&nbsp;за&nbsp;м²</h1>
-          <a href="#" class="button header--button z-depth-2">Рассчитать стоимость заказа</a>
+          <a data-scroll href="#form" class="button header--button z-depth-2">Рассчитать стоимость заказа</a>
         </div>
       </div>
       <div class="header--right-side order-1 order-lg-12" style="background-image: url(img/header.jpg);">
@@ -69,7 +69,7 @@
         </div>
       </div>
     </section>
-    <section class="price">
+    <section class="price" id="price">
       <div class="container">
         <h2 class="price--title">Наши услуги</h2>
         <div class="row price--row">
@@ -80,7 +80,7 @@
             <span class="price--name">Лстк металлоконструкции</span>
             <p class="price--desc">Металлоконструкции рамного или ферменного типа, состоящие полностью из оцинкованных холодногнутых профилей.</p>
             <span class="price--price">от 2800 руб. за м²</span>
-            <a href="#" class="price--button hoverable">Рассчитать стоимость заказа</a>
+            <a data-scroll href="#form" class="price--button hoverable">Рассчитать стоимость заказа</a>
           </div>
         </div>
         <div class="row price--row">
@@ -88,7 +88,7 @@
             <span class="price--name">Комбинированные металлоконструкции</span>
             <p class="price--desc">Колонны каркаса состоят из черно-металлического сварного или прокатного огрунтованного двутавра постоянного сечения. Ферма покрытия, прогонная система - состоит из холодногнутых оцинкованных профилей.</p>
             <span class="price--price">от 4200 руб. за м²</span>
-            <a href="#" class="price--button hoverable">Рассчитать стоимость заказа</a>
+            <a data-scroll href="#form" class="price--button hoverable">Рассчитать стоимость заказа</a>
           </div>
           <div class="col-md-6 order-1 order-lg-12">
             <img class="img-fluid" src="img/2.jpg">
@@ -102,7 +102,7 @@
             <span class="price--name">Конструкции чернометалические рамного типа</span>
             <p class="price--desc">Состоят из балки постоянного или переменного сечения. Прогоны стен и покрытия черно-металлические или холодногнутые оцинкованные.</p>
             <span class="price--price">от 5500 руб. за м²</span>
-            <a href="#" class="price--button hoverable">Рассчитать стоимость заказа</a>
+            <a data-scroll href="#form" class="price--button hoverable">Рассчитать стоимость заказа</a>
           </div>
         </div>
         <div class="row price--row">
@@ -110,7 +110,7 @@
             <span class="price--name">Конструкции чернометалические ферменного типа</span>
             <p class="price--desc">Колонны каркаса из сварного или прокатного двутавра, ферма покрытия из профильной трубы и сортового проката. Прогоны стен и покрытия черно-металлические или оцинкованные холодногнутые.</p>
             <span class="price--price">от 4200 руб. за м²</span>
-            <a href="#" class="price--button hoverable">Рассчитать стоимость заказа</a>
+            <a data-scroll href="#form" class="price--button hoverable">Рассчитать стоимость заказа</a>
           </div>
           <div class="col-md-6 order-1 order-lg-12">
             <img class="img-fluid" src="img/4.jpg">
@@ -140,7 +140,7 @@
         </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="container">
         <h2 class="projects--title">
         Наши проекты
@@ -168,39 +168,37 @@
         </div>
       </div>
     </section>
-    <section class="benefits">
+    <section class="benefits" id="benefits">
       <div class="benefits--background" style="background-image: url(img/benefits_bcg.svg);"></div>
       <div class="benefits--container container">
         <h2 class="benefits--title">Преимущества</h2>
         <div class="row benefits--row">
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <img class="benefits--icon" src="img/ben_1.svg" width="100">
             <span class="benefits--name">Собственные бригады монтажников</span>
             <p class="benefits--desc">Вам не придется искать работников в других фирмах</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <img class="benefits--icon"  src="img/ben_2.svg" width="100">
             <span class="benefits--name">Большой опыт работы бригадиров</span>
             <p class="benefits--desc">Монтируют металлоконструкции более 10 лет</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <img class="benefits--icon"  src="img/ben_3.svg" width="100">
             <span class="benefits--name">Без авансирования</span>
             <p class="benefits--desc">Возможность проектирования и поставки комплекта здания по банковской гарантии</p>
           </div>
-        </div>
-        <div class="row benefits--row">
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <img class="benefits--icon"  src="img/ben_4.svg" width="100">
             <span class="benefits--name">Контроль за проектом</span>
             <p class="benefits--desc">Управляем проектом с этапа планирования до сдачи объекта.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <img class="benefits--icon"  src="img/ben_5.svg" width="100">
             <span class="benefits--name">Придерживаемся графика производства работ</span>
             <p class="benefits--desc">Большой опыт работы помогает не выбится из установленного графика</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <img class="benefits--icon"  src="img/ben_6.svg" width="100">
             <span class="benefits--name">Выполнение обязанностей и отчётность</span>
             <p class="benefits--desc">Исполняем обязательства по контракту, ведем документацию</p>
@@ -208,25 +206,31 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
-      <div class="contacts--map"><iframe src="https://yandex.ru/map-widget/v1/-/CBFbaSsdWD" width="100%" height="100%" frameborder="0" allowfullscreen="true"></iframe></div>
-      <div class="contacts--right">
+    <section class="contacts" id="contacts">
+      <div class="contacts--map order-12 order-lg-1"><iframe src="https://yandex.ru/map-widget/v1/-/CBFbaSsdWD" width="100%" height="100%" frameborder="0" allowfullscreen="true"></iframe></div>
+      <div class="contacts--right order-1 order-lg-12">
         <h2 class="contacts--title">Контакты</h2>
         <p class="contacts--adress">Свердловская область,<br>Сысертский район, п.Большой<br>Исток, ул.Свердлова, дом 42,<br>строение 15</p>
         <span class="contacts--phone">+7 343-372-01-32</span>
       </div>
     </section>
-    <footer>
-      <script id="bx24_form_inline" data-skip-moving="true">
-        (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-                (w[b].forms=w[b].forms||[]).push(arguments[0])};
-                if(w[b]['forms']) return;
-                var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
-                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-        })(window,document,'https://b24-0ljgja.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
-
-        b24form({"id":"6","lang":"ru","sec":"0njw1y","type":"inline"});
-</script>
+    <footer id="form">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <script id="bx24_form_inline" data-skip-moving="true">
+              (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                      (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                      if(w[b]['forms']) return;
+                      var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                      var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+              })(window,document,'https://b24-0ljgja.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
+            
+              b24form({"id":"6","lang":"ru","sec":"0njw1y","type":"inline"});
+            </script>
+          </div>
+        </div>
+      </div>
     </footer>
     <script src="js/main.js"></script>
   </body>
